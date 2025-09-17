@@ -16,9 +16,14 @@ z = y[0]
 print(y)
 print(z) """
 
-#Create an input function to ask the user for a sentence (inputs output strings).
+""" #Create an input function to ask the user for a sentence (inputs output strings).
 sentence = input("Give me a sentence")
-y = sentence.split( )
+def count_words(sentence):
+    words = sentence.split( )
+    return len(words)
+word_count = count_words(sentence)
+print("Your sentence has", word_count, "words.") """
+
 """ print(len(x)) """
 
 """ day_of_week = input("What day is it? ")
