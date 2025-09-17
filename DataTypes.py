@@ -43,3 +43,31 @@ elif temp == 68:
 else:
     print('cold')
  """
+""" friend_comes = True
+money = True
+def and_movies(friend, money):
+    if friend == True and money == True:
+        print("Going to the movies")
+    else:
+        print("I have no friends or I have no money")
+and_movies(friend_comes, money) """
+
+""" print( 5 %2) """
+
+""" def factor(x, y):
+    if x % y == 0:
+        print(f"{y} is a factor of {x}")
+factor(25, 5) """
+
+""" friend = False
+money = False
+def or_movies(friend, money):
+    if friend or money:
+        print("Going to the movies")
+    else:
+        print("I have no money or I have no friends")
+or_movies(friend, money) """
+
+
+a = int('5')
+bill = input("")
