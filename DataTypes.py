@@ -77,13 +77,27 @@ def odd_or_even(number):
 odd_or_even(number) """
 
 
-service = "bad"
-def calculate_tip(Bill, Service):
-    if service == "bad":
-        tip_percentage: 0
-    elif service == "okay":
-        tip_percentage: 15
-    elif service == "good":
-        tip_percentage: 20
-    elif service == "great":
-        tip_percentage: 25
+def calculate_tip():
+    tip = input("How was our service?")
+    if tip == "bad":
+        tip = 0
+    elif tip == "okay":
+        tip = 0.15
+    elif tip == "good":
+        tip = 0.2
+    elif tip == "great":
+        tip = 0.25
+    else:
+        print("Invalid")
+
+
+    bill = input("How much is the bill? ")
+    bill = float(bill)
+    tip_total = tip*bill
+    total = 
+
+""" 
+def factor(number):
+    number = input("Give me a number")
+    if number %2 == 0:
+        print """
