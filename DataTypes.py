@@ -77,7 +77,7 @@ def odd_or_even(number):
 odd_or_even(number) """
 
 
-def calculate_tip():
+""" def calculate_tip():
     tip = input("How was our service?")
     if tip == "bad":
         tip = 0
@@ -94,10 +94,25 @@ def calculate_tip():
     bill = input("How much is the bill? ")
     bill = float(bill)
     tip_total = tip*bill
-    total = 
+    total = bill + tip_total
+    print(total)
+calculate_tip()
+ """
 
-""" 
-def factor(number):
-    number = input("Give me a number")
-    if number %2 == 0:
-        print """
+""" def factors_of(n):
+    for i in range(1, n + 1):
+        if n % i == 0:
+            print(i)
+
+n = int(input("Give me a number: "))
+factors_of(n) """
+
+
+def greatest_common_factor(x, y):
+    if y != 0:
+        x%y == 0
+        x = y
+        y = 0
+        x = (input("Give me the first number: "))
+        y = (input("Give me the second number: "))
+    greatest_common_factor(x, y)
