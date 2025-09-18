@@ -68,6 +68,22 @@ def or_movies(friend, money):
         print("I have no money or I have no friends")
 or_movies(friend, money) """
 
+""" number = 8
+def odd_or_even(number):
+    if number % 2 == 0:
+        print("Even")
+    else:
+        print("Odd")
+odd_or_even(number) """
 
-a = int('5')
-bill = input("")
+
+service = "bad"
+def calculate_tip(Bill, Service):
+    if service == "bad":
+        tip_percentage: 0
+    elif service == "okay":
+        tip_percentage: 15
+    elif service == "good":
+        tip_percentage: 20
+    elif service == "great":
+        tip_percentage: 25
