@@ -108,11 +108,14 @@ n = int(input("Give me a number: "))
 factors_of(n) """
 
 
-def greatest_common_factor(x, y):
-    if y != 0:
-        x%y == 0
-        x = y
-        y = 0
-        x = (input("Give me the first number: "))
-        y = (input("Give me the second number: "))
-    greatest_common_factor(x, y)
+""" x = input("Give me a number: ")
+y= input("Give me another number: ")
+x = int(x)
+y = int(y)
+z = x+y
+for i in range(z):
+    if x%z == 0 and y%z == 0:
+        print(z)
+        break
+    else:
+        z -=1 """
