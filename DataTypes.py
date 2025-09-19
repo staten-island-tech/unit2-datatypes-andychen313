@@ -119,3 +119,60 @@ for i in range(z):
         break
     else:
         z -=1 """
+
+""" x = int(input("Give me a number: "))
+y = int(input("Give me a number: "))
+z = x+y
+for i in range(z):
+    if x%z == 0 and y%z == 0:
+        print(z)
+        break
+    else:
+        z -=1 """
+
+""" def factors_of(n):
+    for i in range(1, n + 1):
+        if n%i == 0:
+            print(i)
+n = int(input("Give me a number: "))
+factors_of(n) """
+
+
+""" def calculate_tip():
+    tip = input("How was our service?")
+    if tip == "bad":
+        tip = 0
+    elif tip == "okay":
+        tip = 0.15
+    elif tip == "good":
+        tip = 0.2
+    elif tip == "great":
+        tip = 0.25
+    else:
+        print("Invalid")
+
+
+    bill = input("How much is the bill? ")
+    bill = float(bill)
+    tip_total = tip*bill
+    total = bill + tip_total
+    print(total)
+calculate_tip() """
+
+
+def calculate_tip():
+    tip = input("How was our service?")
+    if tip == "bad":
+        tip = 0
+    elif tip == "okay":
+        tip = 0.15
+    elif tip == "good":
+        tip = 0.2
+    elif tip == "great":
+        tip = 0.25
+    else:
+        print("Invalid")
+
+
+    bill = input("How much is the bill")
+
