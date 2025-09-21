@@ -219,12 +219,23 @@ odd_or_even() """
             print(i)
 factors_of() """
 
-def factors_of():
+""" def factors_of():
     factors = []
     n = int(input("Give me a number: "))
     for i in range(1, n+1):
         if n % i == 0:
             factors.append(i)
     print(factors)
-factors_of()
+factors_of() """
+
+x = int(input("Give me a number: "))
+y = int(input("Give me a number: "))
+z = x+y
+for i in range(z):
+    if x%z == 0 and y%z == 0:
+        print(z)
+        break
+    else:
+        z -=1
+
 
