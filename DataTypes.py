@@ -160,7 +160,7 @@ factors_of(n) """
 calculate_tip() """
 
 
-def calculate_tip():
+""" def calculate_tip():
     tip = input("How was our service?")
     if tip == "bad":
         tip = 0
@@ -175,4 +175,56 @@ def calculate_tip():
 
 
     bill = input("How much is the bill")
+    tip_total = tip*bill
+    Total = bill + tip_total
+    print(Total)
+calculate_tip() """
+
+""" def calculate_tip():
+    tip = input("How was our service? ")
+    if tip == "Bad":
+        tip = 0
+    elif tip == "Okay":
+        tip = 0.15
+    elif tip == "Good":
+        tip = 0.2
+    elif tip == "Great":
+        tip = 0.25
+    else:
+        print("Invalid")
+
+    bill = input("How much is the bill? ")
+    bill = float(bill)
+    tip_total = tip*bill
+    total = tip_total + bill
+    total = float(total)
+    print(total)
+calculate_tip()
+ """
+
+""" def odd_or_even():
+    number = input("Give me a number: ")
+    number = int(number)
+    if number % 2 == 0:
+        print("Even")
+    else:
+        print("Odd")
+odd_or_even() """
+
+""" def factors_of():
+    n = input("Give me a number: ")
+    n = int(n)
+    for i in range(1, n+1):
+        if n%i == 0:
+            print(i)
+factors_of() """
+
+def factors_of():
+    factors = []
+    n = int(input("Give me a number: "))
+    for i in range(1, n+1):
+        if n % i == 0:
+            factors.append(i)
+    print(factors)
+factors_of()
 
