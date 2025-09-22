@@ -271,8 +271,13 @@ for student in students:
         print("Found Mason")
         found = True """
 
-name = "Cadee"
-print(name[0])
+""" name = "Cadee"
 for letter in name:
-    print(letter)
+    print(letter) """
 
+""" friend = True
+money = True
+if friend == True and money == True:
+    print("Going to the movies!")
+else:
+    print("I have no friends or I have no money.") """
