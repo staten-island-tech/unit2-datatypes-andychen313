@@ -228,7 +228,7 @@ factors_of() """
     print(factors)
 factors_of() """
 
-x = int(input("Give me a number: "))
+""" x = int(input("Give me a number: "))
 y = int(input("Give me a number: "))
 z = x+y
 for i in range(z):
@@ -236,6 +236,43 @@ for i in range(z):
         print(z)
         break
     else:
-        z -=1
+        z -=1 """
 
+""" name = input("What is your name? ")
+print(f"Your name is {name}.")
+ """
+
+""" students = ["Cadee", "Andy", "Mason"]
+students.append("Alina")
+for student in students:
+    print(student) """
+
+""" students = ["Cadee", "Andy", "Mason"]
+if "Alina" in students:
+    print("She's here!")
+else:
+    students.append("Alina")
+    print("We added Alina")
+for student in students:
+    print(student) """
+
+""" x = int(input("Give me a number: "))
+if x < 25:
+    print("Less")
+elif x == 25:
+    print("Equal")
+else:
+    print("Greater than 10") """
+
+""" students = ["Cadee", "Andy", "Mason", "Alina"]
+for student in students:
+    found = False
+    if student == "Mason":
+        print("Found Mason")
+        found = True """
+
+name = "Cadee"
+print(name[0])
+for letter in name:
+    print(letter)
 
