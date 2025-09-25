@@ -281,3 +281,51 @@ if friend == True and money == True:
     print("Going to the movies!")
 else:
     print("I have no friends or I have no money.") """
+
+""" x = int(input("Give me a number: "))
+y = int(input("Give me another number: "))
+z = x+y
+for i in range(z):
+    if x%z == 0 and y%z == 0:
+        print(z)
+        break
+    else:
+        z -=1 """
+
+""" friend_input = input("Is your friend going? (True/False): ")
+money_input = input("Do you have enough money? (True/False): ")
+friend = friend_input == "True"
+money = money_input == "True"
+def and_movies(friend, money):
+    if friend == True and money == True:
+        print("Going to the movies!")
+    else:
+        print("I have no friend and I have no money")
+and_movies(friend, money) """
+
+""" def odd_or_even():
+    number = int(input("Give me a number: "))
+    if number % 2 == 0:
+        print("Even")
+    else:
+        print("Odd")
+odd_or_even() """
+
+""" def factors_of():
+    factors = []
+    n = int(input("Give me a number: "))
+    for i in range(1, n+1):
+        if n % i == 0:
+            factors.append(i)
+    print(factors)
+factors_of()
+ """
+
+def factors_of():
+    factors = []
+    n = int(input("Give me a number: "))
+    for i in range(1, n+1):
+        if n % i == 0:
+            factors.append(i)
+    print(factors)
+factors_of()
