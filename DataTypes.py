@@ -321,11 +321,41 @@ odd_or_even() """
 factors_of()
  """
 
-def factors_of():
+""" def factors_of():
     factors = []
     n = int(input("Give me a number: "))
     for i in range(1, n+1):
         if n % i == 0:
             factors.append(i)
     print(factors)
-factors_of()
+factors_of() """
+
+""" #Create an input function to ask the user for a sentence (inputs output strings).
+sentence = input("Give me a sentence: ")
+def count_words(sentence):
+    words = sentence.split( )
+    return len(words)
+word_count = count_words(sentence)
+print(f"Your sentence has {word_count} words.") """
+
+""" def calculate_tip():
+    tip = input("How was our service?: ")
+    if tip == "Bad":
+        tip = 0
+    elif tip == "Okay":
+        tip = 15
+    elif tip == "Good":
+        tip = 20
+    elif tip == "Great":
+        tip = 25
+    tip = int(tip)
+
+    bill = input("How much was the bill?: ")
+    bill = float(bill)
+    print(f"Bill without tip: {bill}")
+    tip_total = round(bill*(tip/100), 2)
+    tip_total = float(tip_total)
+    print(f"Your tip total is: {tip_total}")
+    bill_total = bill + tip_total
+    print(f"Your bill total with tips is: {bill_total}")
+calculate_tip() """
